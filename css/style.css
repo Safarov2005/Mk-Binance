@@ -288,7 +288,7 @@ a {
 
 .biz {
     margin-top: 140px;
-    display: flex;
+    /* display: flex; */
 
 }
 
@@ -297,6 +297,11 @@ a {
     font-size: 42px;
     line-height: 50px;
     color: #343A40;
+}
+
+.cardd {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cards {
@@ -325,6 +330,7 @@ a {
 }
 
 .cards h2 {
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 164.6%;
